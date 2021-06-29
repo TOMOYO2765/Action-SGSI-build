@@ -76,7 +76,7 @@ jobs:
 
       - name: 制作AB型GSI...
         run: |
-          sudo bash $GITHUB_WORKSPACE/Tool-SGSI-build/make.sh AB << EOF
+          sudo bash $GITHUB_WORKSPACE/Tool-SGSI-build/make.sh A << EOF
           ${{ github.event.inputs.ZIP_NAME }}
           y
           y
